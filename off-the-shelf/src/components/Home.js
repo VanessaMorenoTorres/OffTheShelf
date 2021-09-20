@@ -1,11 +1,10 @@
-import Header from "./Header";
+import Books from "./Books";
 
 function Home() {
   return (
     <div className="Home">
-        <h3>Home page</h3>
-      <Header />
-     <p>Is this stil working? Yes</p>
+        <h2>Home page</h2>
+     <Books/>
     </div>
   );
 }

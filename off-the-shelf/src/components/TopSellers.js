@@ -3,7 +3,7 @@ import React from "react";
 function TopSellers() {
   return (
     <div>
-      <h3>Top Sellers</h3>
+      <h2>Top Sellers</h2>
     </div>
   );
 }

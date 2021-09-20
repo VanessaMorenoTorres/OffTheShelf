@@ -1,11 +1,16 @@
 .App {
   text-align: center;
+  margin: 50px;
+  padding: 10px;
+
 }
 .BookLogo{
   max-height: 50px;
   color: aqua;
+  padding: 10px;
+  margin: 10px;
 }
 
 div{
-  border: solid 5px black;
+  border: solid 2px black;
 }

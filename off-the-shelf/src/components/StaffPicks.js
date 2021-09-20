@@ -3,7 +3,7 @@ import React from "react";
 function StaffPicks() {
   return (
     <div className="Recs">
-      <h1>Recommended by creator</h1>
+      <h2>Recommended by creator</h2>
     </div>
   );
 }
