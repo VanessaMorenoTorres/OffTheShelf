@@ -16,8 +16,8 @@ class Books extends Component {
   searchBook = (e) =>{
     e.preventDefault();
     request
-    .get('https://www.googleapis.com/books/v1/volumes')
-    .query({q: this.state.searchField})
+    .get(`https://www.googleapis.com/books/v1/volumes/?q=${this.state.searchField}&maxResults=40`)
+    // .query({q: this.state.searchField})
     .then((data)=> {
       console.log(data)
       const cleanData = this.cleanData(data)
