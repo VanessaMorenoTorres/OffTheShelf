@@ -42,6 +42,7 @@ function TopBooks() {
                   className="amazonlink"
                   target="_blank"
                   // ^opens link in new tab
+                  rel="noreferrer"
                 >
                   Click Here To Buy Now
                 </a>

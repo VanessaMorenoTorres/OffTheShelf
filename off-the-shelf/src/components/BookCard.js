@@ -7,9 +7,9 @@ const BookCard = (props) => {
             <div className="desc">
                 <h2>{props.title}</h2>
                 <h3>Author: {props.author}</h3>
-                <p> Year Published: {props.published =='0000' ? 'Not available' : props.published.substring(0,4) }</p>
+                <p> Year Published: {props.published ==='0000' ? 'Not available' : props.published.substring(0,4) }</p>
                 <p>{props.description}</p>
-                <a href={props.read} target="_blank">Click Here For Book Preview</a>
+                <a href={props.read} target="_blank" rel="noreferrer" >Click Here For Book Preview</a>
             </div>
         </div>
     )
