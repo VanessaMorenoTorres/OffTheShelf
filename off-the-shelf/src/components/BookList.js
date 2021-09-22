@@ -3,8 +3,7 @@ import BookCard from "./BookCard";
 
 const BookList = (props) => {
     return(
-        <div className="list">
-            hello
+        <div className="Searchlist">
             {
                 props.books.map((book, i)=>{
                     return <BookCard 

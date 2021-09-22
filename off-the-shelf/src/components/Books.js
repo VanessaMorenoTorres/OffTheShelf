@@ -44,8 +44,6 @@ class Books extends Component {
       }
       if(book.volumeInfo.hasOwnProperty('imageLinks')=== false) {
         book.volumeInfo['imageLinks'] = { smallThumbnail: 'https://tightlinesandtidalwaters.com/wp/wp-content/themes/powerwp-pro/assets/images/no-image.png'}
-      
-        
       }
       return book;
     })

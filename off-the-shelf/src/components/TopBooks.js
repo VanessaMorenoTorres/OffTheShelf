@@ -9,7 +9,6 @@ function TopBooks() {
     )
       .then((response) => response.json())
       .then((data) => setTop(data.results.books));
-    // console.log(setTop)
     // console.log(data.results.books)) this worked data appeared
   }, []);
 
