@@ -5,7 +5,7 @@ function TopSellers() {
   return (
     <div>
       <h2>Top Sellers</h2>
-      <TopBooks/>
+      <TopBooks />
     </div>
   );
 }
