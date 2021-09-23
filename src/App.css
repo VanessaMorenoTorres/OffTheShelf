@@ -114,9 +114,3 @@ div{
   outline: black;
   background-color: none;
 }
-
-.Footer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
