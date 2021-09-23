@@ -8,9 +8,23 @@
   background-image: url(./components/images/darkHeader.jpg);
 
 }
-
+.desc{
+  background-color: black;
+}
 a{
   color: aqua;
+}
+.cardsCont{
+  max-width: 250px;
+  border-radius: 10px;
+  /* background-color: rgba(7, 7, 7, 0.466); */
+  background-color: rgba(0, 255, 255, 0.719);
+}
+.Searchlist{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .pageLinks{
@@ -23,24 +37,22 @@ ul{
   list-style: none;
 }
 .topPics{
-  max-width: 25%;
+  max-width: 70%;
   height: auto;
 }
 .topCont{
-  /* display: flex;
-  flex-direction: row;
-  flex-wrap: wrap; */
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(5, 1fr); */
-  /* background-color: yellowgreen; */
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-/* .topCols{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); */
-/* } */
+.topCols{
+  max-width: 250px;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .BookLogo{
   max-height: 50px;
   color: whitesmoke;

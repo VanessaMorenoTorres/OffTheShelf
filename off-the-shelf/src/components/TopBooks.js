@@ -14,7 +14,7 @@ function TopBooks() {
 
   return (
     // <div className='topCont'>
-      <section>
+      <section className='topCont'>
         {top.map((top) => {
           const {
             rank,

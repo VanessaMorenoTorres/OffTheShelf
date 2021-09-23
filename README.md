@@ -1,6 +1,16 @@
 # OffTheShelf
 An app for book lovers. App pulls information from Google Books API and the New York Times Best Seller List API to provide users with a variety of options for their next book.
 
+### APIs:
+    -Google Books: https://developers.google.com/books/docs/v1/getting_started
+
+    -Newy York Times: https://developer.nytimes.com/docs/books-product/1/overview
+
+### Images: 
+    -FontAwesome: https://fontawesome.com/
+
+    -Pexels: https://www.pexels.com/
+
 ## Requirements:
 
     -The code should be written in ES6 as much as possible
@@ -28,3 +38,4 @@ An app for book lovers. App pulls information from Google Books API and the New 
     -Application should read at least 2 unique APIs (must be related in some way)
 
     -Has README.md file at the root of repository
+
