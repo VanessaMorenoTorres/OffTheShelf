@@ -59,6 +59,9 @@ class Books extends Component {
       else if(this.state.sort === 'Oldest'){
         return parseInt(a.volumeInfo.publishedDate.substring(0,4)) - parseInt(b.volumeInfo.publishedDate.substring(0,4))
       }
+      return(
+        console.log('sortedBooks')
+      )
     })
     return (
       <div className="searchResults">

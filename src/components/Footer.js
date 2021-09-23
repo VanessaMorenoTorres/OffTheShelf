@@ -6,7 +6,7 @@ import React from "react";
 
 function Footer() {
     return(
-        <div classname='Footer'>
+        <div className='Footer'>
             Follow us on social media @OffTheShelf 
             {/* <Fb/> 
             <Ig/> 
