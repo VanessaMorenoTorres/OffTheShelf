@@ -13,8 +13,7 @@ function TopBooks() {
   }, []);
 
   return (
-    <div>
-      <h3>Here is where columns will appear</h3>
+    // <div className='topCont'>
       <section>
         {top.map((top) => {
           const {
@@ -28,10 +27,8 @@ function TopBooks() {
           } = top;
           return (
             <article key={rank}>
-              <div>
-                <img src={book_image} alt={title} />
-              </div>
-              <div>
+              <div className='topCols'>
+                <img className='topPics' src={book_image} alt={title} />
                 <h3>Rank: {rank}</h3>
                 <h3>Title: {title}</h3>
                 <h4>Author: {author}</h4>
@@ -51,7 +48,7 @@ function TopBooks() {
           );
         })}
       </section>
-    </div>
+    // </div>
   );
 }
 

@@ -8,7 +8,7 @@ import StaffPicks from "./StaffPicks";
 function Navigation() {
     return (
         <Router>
-          <div>
+          <div className="navBar">
             <nav>
           <ul className="pageLinks">
             <li>

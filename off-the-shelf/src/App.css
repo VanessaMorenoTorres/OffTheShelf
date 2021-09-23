@@ -1,16 +1,69 @@
 .App {
   text-align: center;
-  margin: 50px;
-  padding: 10px;
+  margin: 40px;
+  /* padding: 10px; */
+  color: whitesmoke;
+  /* background-color: rgba(148, 147, 147, 0.815); */
+  /* background-image: url(./components/images/appBack.jpg); */
+  background-image: url(./components/images/darkHeader.jpg);
 
 }
+
+a{
+  color: aqua;
+}
+
+.pageLinks{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul{
+  list-style: none;
+}
+.topPics{
+  max-width: 25%;
+  height: auto;
+}
+.topCont{
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; */
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr); */
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .topCols{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); */
+/* } */
 .BookLogo{
   max-height: 50px;
-  color: aqua;
+  color: whitesmoke;
   padding: 10px;
   margin: 10px;
+  /* outline: black; */
 }
 
 div{
-  border: solid 2px black;
+  border: solid 2px whitesmoke;
+  margin: 10px;
+  padding: 10px;
+
+}
+.Contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.Header{
+  color: whitesmaoke;
+  outline: black;
+  background-color: none;
+
+  /* background-image: url(./components/images/appBack.jpg); */
 }
