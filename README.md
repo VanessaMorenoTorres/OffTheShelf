@@ -1,7 +1,10 @@
 # OffTheShelf
 An app for book lovers. App pulls information from Google Books API and the New York Times Best Seller List API to provide users with a variety of options for their next book to read.
 
-### APIs:
+## Launch App Here:
+https://off-the-shelf.vercel.app/
+
+### APIs Used:
     -Google Books: https://developers.google.com/books/docs/v1/getting_started
 
     -New York Times: https://developer.nytimes.com/docs/books-product/1/overview
