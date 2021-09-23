@@ -5,9 +5,33 @@
   background-image: url(./components/images/darkHeader.jpg);
   border-radius: 10px;
 }
+
+textarea{
+  height: 100px;
+  max-width: 300px;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+input[type = 'text'],[type='email']{
+  height: 20px;
+  max-width: 300px;
+  font-size: 15px;
+  border-radius: 2px;
+}
+
+#formSub{
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  border-radius: 4px;
+  background-color: rgb(2, 247, 255);
+}
+
 .desc{
   background-color: black;
 }
+
 a{
   color: rgb(2, 247, 255);
 }
@@ -22,6 +46,7 @@ a{
   justify-content: space-around;
   align-items: center;
 }
+
 .Searchlist{
   display: flex;
   flex-direction: row;
@@ -41,10 +66,12 @@ a{
 ul{
   list-style: none;
 }
+
 .topPics{
   max-width: 70%;
   height: auto;
 }
+
 .topCont{
   display: flex;
   flex-direction: row;
@@ -52,9 +79,9 @@ ul{
   justify-content: space-evenly;
   align-items: center;
 }
+
 .topCols{
   max-width: 250px;
-  /* min-height: 715px; */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -65,22 +92,18 @@ ul{
   background-color: rgba(247, 248, 248, 0.397);
 }
 
-
-
 .BookLogo{
   height: 50px;
   color: whitesmoke;
   padding: 10px;
   margin: 10px;
-  /* outline: black; */
 }
 
 div{
-  /* border: solid 2px whitesmoke; */
   margin: 10px;
   padding: 10px;
-
 }
+
 .Contact{
   display: flex;
   flex-direction: column;
@@ -90,8 +113,6 @@ div{
   color: whitesmaoke;
   outline: black;
   background-color: none;
-
-  /* background-image: url(./components/images/headerbackground.jpeg); */
 }
 
 .Footer{
@@ -99,7 +120,3 @@ div{
   flex-direction: row;
   justify-content: space-around;
 }
-
-/* svg{
-  width: 25px;
-} */
