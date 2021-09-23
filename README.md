@@ -1,10 +1,10 @@
 # OffTheShelf
-An app for book lovers. App pulls information from Google Books API and the New York Times Best Seller List API to provide users with a variety of options for their next book.
+An app for book lovers. App pulls information from Google Books API and the New York Times Best Seller List API to provide users with a variety of options for their next book to read.
 
 ### APIs:
     -Google Books: https://developers.google.com/books/docs/v1/getting_started
 
-    -Newy York Times: https://developer.nytimes.com/docs/books-product/1/overview
+    -New York Times: https://developer.nytimes.com/docs/books-product/1/overview
 
 ### Images: 
     -FontAwesome: https://fontawesome.com/
@@ -18,8 +18,6 @@ An app for book lovers. App pulls information from Google Books API and the New 
     -Use the create-react-app generator to start your project 
 
     -Makes use of React Router (install react-router-dom)
-
-    -Manage at least some part of state with the useReducer and useContext hooks (together) or Redux (install redux react-redux) 
 
     -There should be 1 class components 
 
@@ -39,3 +37,12 @@ An app for book lovers. App pulls information from Google Books API and the New 
 
     -Has README.md file at the root of repository
 
+## Improvements To Be Made: 
+
+    -Have pre-set genre buttons for users to select instead of having to type genre in
+
+    -Show book descriptions on hover or click of picture
+
+    -Staff picks will have "donte ever judge a book by its cover" component that shows a description of the book and if users are interested they can hover or click over description t find out more information
+
+    -Finish set up for email 

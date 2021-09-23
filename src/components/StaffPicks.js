@@ -19,7 +19,7 @@ function StaffPicks() {
         <p>
           Many individuals feel that way too, so much so that they have taken it upon 
           themselves to create the content they would like to see. 
-          Check out <a href='https://archiveofourown.org/media'>Archive of Our Own</a>,
+          Check out <a href='https://archiveofourown.org/media' target="_blank" rel="noreferrer">Archive of Our Own</a>,
           here people like you have written amazing stories that keep our favorite characters alive.
           You can look up virtually any character, show, anime, movie, or book and find
            a variety of content to read. These stories range from placing your favorite characters
