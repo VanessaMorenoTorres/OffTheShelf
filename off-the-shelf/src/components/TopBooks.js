@@ -28,9 +28,8 @@ function TopBooks() {
           return (
             <article key={rank}>
               <div className='topCols'>
-                <img className='topPics' src={book_image} alt={title} />
-                <h3>Rank: {rank}</h3>
-                <h3>Title: {title}</h3>
+                <img className='topPics' src={book_image} alt={title} /><br/>
+                <h3>{rank} : {title}</h3>
                 <h4>Author: {author}</h4>
                 <p>Description: {description}</p>
                 <p>ISBN: {primary_isbn10}</p>
